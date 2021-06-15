@@ -1,0 +1,25 @@
+@import '../../../style-guide';
+
+.IndexContent {
+  padding: 2em 1em;
+  display: flex;
+  flex-direction: column;
+
+  &__first-line {
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    font-family: $second-font;
+    margin-right: 1em;
+    font-size: 20px;
+  }
+
+  &__first-block {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,41 @@
+@import '../../style-guide.scss';
+
+.CurrentAccountData {
+  display: flex;
+  flex-direction: column;
+
+  &__account-type {
+    color: $primary-variant-color;
+  }
+
+  &__data-container {
+    display: flex;
+    margin-top: 5px;
+  }
+
+  &__data-info {
+    color: $primary-color;
+    font-size: 12px;
+    margin-right: 15px;
+  }
+}
+
+.StyledItem {
+  font-size: 14px;
+  color: $primary-variant-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline !important;
+
+  &__info {
+    display: flex;
+  }
+
+  &__numbers {
+    margin-top: 3px;
+    font-size: 10px;
+    margin-right: 1em;
+    color: $primary-color;
+  }
+}

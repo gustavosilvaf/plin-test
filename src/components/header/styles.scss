@@ -1,0 +1,26 @@
+@import '../../style-guide';
+
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+
+  &__left-container {
+    display: flex;
+  }
+
+  &__logo {
+    width: 130px;
+  }
+
+  &__divider {
+    margin: 0 1em;
+  }
+
+  &__right-container {
+    display: flex;
+    align-items: center;
+  }
+}

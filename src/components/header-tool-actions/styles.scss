@@ -1,0 +1,9 @@
+@import '../../style-guide';
+
+.HeaderToolActions {
+  margin: 0 1em;
+  display: flex;
+  &__icons {
+    margin: 0 5px;
+  }
+}

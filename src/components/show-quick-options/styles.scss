@@ -1,0 +1,29 @@
+@import '../../style-guide';
+
+.ShowQuickOptions {
+  display: flex;
+  align-items: center;
+  margin-right: 64px;
+
+  &__initial {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(89.96deg, #622EE5 0.06%, #172765 99.94%);
+    border-radius: 18px;
+    color: $white;
+    margin-right: 10px;
+  }
+
+  &__title {
+    font-size: 14px;
+    color: $primary-variant-color;
+  }
+
+  &__balance {
+    color: $positive-color;
+    font-weight: 600;
+  }
+}

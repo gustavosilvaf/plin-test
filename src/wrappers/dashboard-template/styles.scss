@@ -1,0 +1,8 @@
+@import '../../style-guide';
+
+.DashboardTemplate {
+    height: 100vh;
+    &__body-content {
+    margin-left: 50px;
+  }
+}

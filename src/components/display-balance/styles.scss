@@ -1,0 +1,29 @@
+@import '../../style-guide';
+
+.DisplayBalance {
+  margin-top: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 15px;
+  border: 0.5px solid #E5E4E2;
+  border-bottom: 0.5px solid $primary-color;
+
+  &__left-container {
+    display: flex;
+  }
+
+  &__balance-available {
+    margin: 0 1em;
+  }
+
+  &__subtitle {
+    color: $secondary-variant-color;
+    font-size: 12px;
+  }
+
+  &__balance {
+    color: $positive-color;
+    margin-top: 3px;
+  }
+}

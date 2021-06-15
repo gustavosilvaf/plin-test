@@ -1,0 +1,14 @@
+@import '../../style-guide';
+
+.SquareButtonWithIcon {
+  width: 80px;
+  height: 40px;
+  border: 1px solid $primary-color;
+  border-radius: 5px;
+  margin-right: 1em;
+
+  &:hover {
+    background: linear-gradient(270deg, #622EE5 0%, #A683FF 100%);
+    border: none;
+  }
+}
