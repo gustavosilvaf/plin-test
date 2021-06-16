@@ -5,7 +5,7 @@ import { IconComponent } from '../icon-component';
 
 export const RoundedButton = ({ icon, label }) => (
     <button type="button" className="RoundedButton">
-        <IconComponent src={icon} alt={label} />
+        <IconComponent src={icon} alt={label} className="RoundedButton__icon" />
     </button>
 );
 

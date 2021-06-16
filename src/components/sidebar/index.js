@@ -18,7 +18,7 @@ export const Sidebar = () => (
                     <div className="Sidebar__menu-item">
                         <MenuItem
                             icon={
-                                <IconComponent src={icon} alt={label} />
+                                <IconComponent src={icon} alt={label} className="Sidebar__menu-icon" />
                             }
                             active={active}
                         >

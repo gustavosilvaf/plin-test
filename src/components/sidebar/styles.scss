@@ -17,6 +17,10 @@ $icon-size: 16px;
   &__menu-item {
     margin-bottom: 1em;
   }
+
+  &__menu-icon {
+    width: 40px;
+  }
 }
 .pro-menu-item {
   &.active {
