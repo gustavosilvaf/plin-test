@@ -12,7 +12,7 @@ export const SubHeader = ({ balance }) => (
         <RoundedButton icon={PlusIcon} label="Tag" />
         <ShowQuickOptions label="Principal" balance={balance.main} />
         <ShowQuickOptions label="Aluguel" balance={balance.rent} className="RentBackground" />
-        <ShowQuickOptions label="Alimentação" balance={balance.food} />
+        <ShowQuickOptions label="Alimentação" balance={balance.food} className="FoodBackground" />
     </div>
 );
 
