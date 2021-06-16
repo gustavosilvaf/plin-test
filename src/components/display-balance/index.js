@@ -17,6 +17,6 @@ export const DisplayBalance = () => (
                 </p>
             </div>
         </div>
-        <IconComponent alt="Ocultar" src={HideIcon} />
+        <IconComponent className="DisplayBalance__icon" alt="Ocultar" src={HideIcon} />
     </div>
 );

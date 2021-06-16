@@ -7,8 +7,20 @@
   border-radius: 5px;
   margin-right: 1em;
 
+  &__icon {
+    width: 20px;
+    fill: white;
+    transition: 0s;
+  }
+
   &:hover {
     background: linear-gradient(270deg, #622EE5 0%, #A683FF 100%);
     border: none;
+
+    .SquareButtonWithIcon {
+      &__icon {
+        filter: brightness(100);
+      }
+    }
   }
 }

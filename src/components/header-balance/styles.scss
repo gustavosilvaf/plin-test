@@ -1,24 +1,35 @@
 @import '../../style-guide';
 
 .HeaderBalance {
-  margin-left: 25px;
   height: 19px;
+  margin: auto;
+  margin-left: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
   &__title-container{
-
+    display: flex;
   }
 
   &__title {
+    margin-right: 10px;
     font-size: 12px;
     color: $primary-variant-color;
+  }
+
+  &__icon-container {
+    width: 16px;
   }
 
   &__balance {
     color: $positive-color;
     font-weight: 600;
     margin-top: 2px;
+    visibility: inherit;
+
+     &--inactive {
+      opacity: 0;
+    }
   }
 }

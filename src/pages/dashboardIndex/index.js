@@ -12,7 +12,7 @@ export const Index = () => {
         <DashboardTemplate
             accountWallet={accountWallet}
         >
-            <SubHeader />
+            <SubHeader balance={accountWallet.dividers} />
             <IndexContent />
         </DashboardTemplate>
     );

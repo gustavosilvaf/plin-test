@@ -17,6 +17,10 @@
     margin-right: 10px;
   }
 
+  &__first-line {
+    display: flex;
+  }
+
   &__title {
     font-size: 14px;
     color: $primary-variant-color;
@@ -25,5 +29,18 @@
   &__balance {
     color: $positive-color;
     font-weight: 600;
+    opacity: 1;
+    transition: 0.3s;
+
+
+    &--inactive {
+      opacity: 0;
+      transition: 0.3s;
+    }
+  }
+
+  &__icon-container {
+    margin-left: 10px;
+    width: 16px;
   }
 }

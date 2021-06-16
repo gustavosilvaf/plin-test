@@ -5,7 +5,7 @@ import './styles.scss';
 
 export const SquareButtonWithIcon = ({ icon, label }) => (
     <button type="button" className="SquareButtonWithIcon">
-        <IconComponent src={icon} alt={label} />
+        <IconComponent src={icon} alt={label} className="SquareButtonWithIcon__icon" />
     </button>
 );
 
